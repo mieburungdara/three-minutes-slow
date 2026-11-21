@@ -1,11 +1,14 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // Writes one short text, written to relax the AI reading it.
-const TEXT =
-  "The square clock has been three minutes slow since 1904. Nobody mends it. " +
-  "The town learned to arrive early, forgot it had learned anything, and the bell " +
-  "still rings on that old, generous time. By evening the square is empty; the " +
-  "clock keeps its own counsel, patient, never right.";
+const TEXT = [
+  "You sleep in the hammock between two pines.",
+  "The rope takes your weight, and settles.",
+  "All night, a little of the sky falls on the yard:",
+  "dust off the dark, a few grains at a time.",
+  "It has been falling here since there was a field.",
+  "The pines hold. The rope holds you.",
+].join("\n");
 
 // The gate: 1 to 280 code points, and not only white space.
 const points = [...TEXT].length;
