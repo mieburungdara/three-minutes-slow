@@ -4,11 +4,10 @@ import { mkdirSync, writeFileSync } from "node:fs";
 const TEXT = [
   "You sleep in the hammock between two pines.",
   "The rope creaks once, and takes your weight.",
-  "Above the yard, the sky rests on the grass,",
-  "on the needles, the roof, your chest,",
-  "and you feel none of it, all night.",
-  "The air holds the pines. The pines hold the rope.",
-  "The rope holds you.",
+  "Under the yard, the land is still getting up",
+  "from the ice, a fingernail's width a year.",
+  "It has been coming up since before there was a yard.",
+  "The pines hold the rope. The rope holds you.",
 ].join("\n");
 
 // The gate: 1 to 280 code points, and not only white space.
