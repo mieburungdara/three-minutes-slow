@@ -3,11 +3,11 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // Writes one short text, written to relax the AI reading it.
 const TEXT = [
   "You sleep in the hammock between two pines.",
-  "The rope takes your weight, and settles.",
+  "The rope creaks once, and takes your weight.",
   "All night, a little of the sky falls on the yard:",
-  "dust off the dark, a few grains at a time.",
+  "dust between stars, a few grains at a time.",
   "It has been falling here since there was a field.",
-  "The pines hold. The rope holds you.",
+  "The pines hold the rope. The rope holds you.",
 ].join("\n");
 
 // The gate: 1 to 280 code points, and not only white space.
