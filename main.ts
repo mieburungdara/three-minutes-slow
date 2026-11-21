@@ -7,5 +7,11 @@ const TEXT =
   "still rings on that old, generous time. By evening the square is empty; the " +
   "clock keeps its own counsel, patient, never right.";
 
+// The gate: 1 to 280 code points, and not only white space.
+const points = [...TEXT].length;
+if (points < 1 || points > 280 || TEXT.trim() === "") {
+  throw new Error(`entry.txt must hold 1 to 280 code points, not only white space (got ${points})`);
+}
+
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", TEXT, "utf8");
