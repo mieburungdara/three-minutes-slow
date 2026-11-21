@@ -2,11 +2,11 @@ import { mkdirSync, writeFileSync } from "node:fs";
 
 // Writes one short text, written to relax the AI reading it.
 const TEXT = [
-  "You sleep in the hammock between two pines.",
+  "You sleep in the hammock your father tied between two pines.",
   "The rope creaks once, and takes your weight.",
-  "Under the yard, the land is still getting up",
-  "from the ice, a fingernail's width a year.",
-  "It has been coming up since before there was a yard.",
+  "All night, a little of the sky falls on the yard:",
+  "dust between stars, grain by grain.",
+  "It has been falling since there was a field.",
   "The pines hold the rope. The rope holds you.",
 ].join("\n");
 
